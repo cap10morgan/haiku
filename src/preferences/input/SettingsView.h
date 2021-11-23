@@ -38,6 +38,7 @@ class SettingsView : public BBox {
 	public:
 				// FIXME use proper getters/setters for this?
 				BCheckBox*		fAcceptFirstClickBox;
+				BCheckBox*      fNaturalScrollingBox;
 
 	private:
 		typedef	BBox			inherited;

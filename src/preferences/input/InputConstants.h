@@ -21,6 +21,7 @@ const uint32 kMsgCursorSpeed		= 'SLcs';
 const uint32 kMsgFollowsMouseMode	= 'PUff';
 const uint32 kMsgMouseFocusMode		= 'PUmf';
 const uint32 kMsgAcceptFirstClick	= 'PUaf';
+const uint32 kMsgNaturalScrolling   = 'PUns';
 const uint32 kMsgMouseType		= 'PUmt';
 const uint32 kMsgMouseMap		= 'PUmm';
 const uint32 kMsgMouseSpeed		= 'SLms';

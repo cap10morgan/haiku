@@ -102,6 +102,9 @@ SettingsView::SettingsView(MouseSettings& settings)
 	// Add the "Click-through" check box
 	fAcceptFirstClickBox = new BCheckBox(
 		B_TRANSLATE("Accept first click"), new BMessage(kMsgAcceptFirstClick));
+		
+	fNaturalScrollingBox = new BCheckBox(
+	    B_TRANSLATE("Natural scrolling"), new BMessage(kMsgNaturalScrolling));
 
 	// Build the layout
 
@@ -148,6 +151,12 @@ SettingsView::SettingsView(MouseSettings& settings)
 			.AddGlue()
 			.AddGroup(B_VERTICAL, 0)
 				.Add(fAcceptFirstClickBox)
+				.Add(fNaturalScrollingBox)
+				
+				
+
+
+
 				.End()
 			.End();
 
